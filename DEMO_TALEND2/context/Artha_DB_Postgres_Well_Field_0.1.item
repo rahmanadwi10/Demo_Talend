@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_pVjmwOIsEe-5eZu_3dS_AA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_pVjmweIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_Port" prompt="Artha_DB_Postgres_Well_Field_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_pVjmwuIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_Login" prompt="Artha_DB_Postgres_Well_Field_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_pVjmw-IsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_Schema" prompt="Artha_DB_Postgres_Well_Field_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="Well_Field"/>
+  <contextParameter xmi:id="_pVjmxOIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_Server" prompt="Artha_DB_Postgres_Well_Field_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="192.168.10.120"/>
+  <contextParameter xmi:id="_pVjmxeIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_Password" prompt="Artha_DB_Postgres_Well_Field_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:08HaIbo275FDqgYVWrdHqwlkgYfq70r1HxRYxIwUs8MWMiZxuwoYm3xQngn2"/>
+  <contextParameter xmi:id="_pVjmxuIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_Database" prompt="Artha_DB_Postgres_Well_Field_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_pVjmx-IsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Postgres_Well_Field_AdditionalParams" prompt="Artha_DB_Postgres_Well_Field_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+</talendfile:ContextType>

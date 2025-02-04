@@ -1,0 +1,29 @@
+{
+  "itemId" : "_D6SfUOJREe-As7MhyKytzQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_aCJHQOJREe-As7MhyKytzQ",
+    "parameterList" : [ {
+      "id" : "_aGPkIeJREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_Server"
+    }, {
+      "id" : "_aGPkIuJREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_Port"
+    }, {
+      "id" : "_aGPkI-JREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_AdditionalParams"
+    }, {
+      "id" : "_aGPkJOJREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_Database"
+    }, {
+      "id" : "_aGPkJeJREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_Password"
+    }, {
+      "id" : "_aGPkJuJREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_Login"
+    }, {
+      "id" : "_aGPkJ-JREe-As7MhyKytzQ",
+      "name" : "Artha_DB_Postgres_Well_Field_Stg_Schema"
+    } ]
+  } ]
+}

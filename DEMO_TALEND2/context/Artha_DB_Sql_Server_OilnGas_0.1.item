@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_vxAAMOIsEe-5eZu_3dS_AA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_vxAAMeIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_Port" prompt="Artha_DB_Sql_Server_OilnGas_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_vxAAMuIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_Login" prompt="Artha_DB_Sql_Server_OilnGas_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="user1"/>
+  <contextParameter xmi:id="_vxAAM-IsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_Schema" prompt="Artha_DB_Sql_Server_OilnGas_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_vxAANOIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_Server" prompt="Artha_DB_Sql_Server_OilnGas_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="192.168.10.120"/>
+  <contextParameter xmi:id="_vxAANeIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_Password" prompt="Artha_DB_Sql_Server_OilnGas_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:uV6kmr5mJgllOX9Ijxf/prgflN1ER3LDsHu3fFn/VRZBUNxb"/>
+  <contextParameter xmi:id="_vxAANuIsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_Database" prompt="Artha_DB_Sql_Server_OilnGas_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="OilnGas"/>
+  <contextParameter xmi:id="_vxAAN-IsEe-5eZu_3dS_AA" comment="" name="Artha_DB_Sql_Server_OilnGas_AdditionalParams" prompt="Artha_DB_Sql_Server_OilnGas_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+</talendfile:ContextType>

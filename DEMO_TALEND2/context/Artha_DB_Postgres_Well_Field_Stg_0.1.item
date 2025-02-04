@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_aGPkIOJREe-As7MhyKytzQ" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_aGPkIeJREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_Server" prompt="Artha_DB_Postgres_Well_Field_Stg_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="192.168.10.120"/>
+  <contextParameter xmi:id="_aGPkIuJREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_Port" prompt="Artha_DB_Postgres_Well_Field_Stg_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_aGPkI-JREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_AdditionalParams" prompt="Artha_DB_Postgres_Well_Field_Stg_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_aGPkJOJREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_Database" prompt="Artha_DB_Postgres_Well_Field_Stg_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_aGPkJeJREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_Password" prompt="Artha_DB_Postgres_Well_Field_Stg_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:wEJtzgr9rQQbYgdcVraKG4aSPPXiH8O1OC/eBWdjWaUX21Ym6XfsRiQX/ZTy"/>
+  <contextParameter xmi:id="_aGPkJuJREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_Login" prompt="Artha_DB_Postgres_Well_Field_Stg_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_aGPkJ-JREe-As7MhyKytzQ" comment="" name="Artha_DB_Postgres_Well_Field_Stg_Schema" prompt="Artha_DB_Postgres_Well_Field_Stg_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="Well_Field_Stg"/>
+</talendfile:ContextType>

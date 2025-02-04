@@ -1,0 +1,91 @@
+package routines;
+import java.util.Date;
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class DateDiffCalculator {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+	
+	
+	 public static String calculateTimeDifference(Date date1, Date date2) {
+	        // Calculate the difference in milliseconds
+	        long diffMillis = date2.getTime() - date1.getTime();
+
+	        // Convert the difference into total seconds
+	        long totalSeconds = diffMillis / 1000;
+
+	        // Calculate hours, minutes, and seconds from the total seconds
+	        long hours = totalSeconds / 3600;
+	        long remainingSeconds = totalSeconds % 3600;
+
+	        long minutes = remainingSeconds / 60;
+	        long seconds = remainingSeconds % 60;
+
+	        // Build the result string
+	        StringBuilder result = new StringBuilder();
+
+	        // If the difference is less than a second
+	        if (diffMillis < 1000) {
+	            return diffMillis + " MILLISEONDS";
+	        }
+
+	        // If the difference includes hours, add hours and minutes
+	        if (hours > 0) {
+	            result.append(hours).append(" HOURS");
+	            if (minutes > 0) {
+	                result.append(" ").append(minutes).append(" MINUTES");
+	            }
+	            return result.toString();
+	        }
+
+	        // If the difference includes only minutes, return the minutes
+	        if (minutes > 0) {
+	            result.append(minutes).append(" MINUTES");
+	            if (seconds > 0) {
+	                result.append(" ").append(seconds).append(" SECONDS");
+	            }
+	            return result.toString();
+	        }
+
+	        // If the difference includes only seconds, return the seconds
+	        if (seconds > 0) {
+	            result.append(totalSeconds).append(" SECONDS");
+	        }
+
+	        return result.toString();
+	    }
+
+    public static void helloExample(String message) {
+        if (message == null) {
+            message = "World"; //$NON-NLS-1$
+        }
+        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+}

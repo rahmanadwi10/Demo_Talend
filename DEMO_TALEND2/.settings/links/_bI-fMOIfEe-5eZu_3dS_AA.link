@@ -1,0 +1,29 @@
+{
+  "itemId" : "_bI-fMOIfEe-5eZu_3dS_AA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_vwaxYOIsEe-5eZu_3dS_AA",
+    "parameterList" : [ {
+      "id" : "_vxAAMeIsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_Port"
+    }, {
+      "id" : "_vxAAMuIsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_Login"
+    }, {
+      "id" : "_vxAAM-IsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_Schema"
+    }, {
+      "id" : "_vxAANOIsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_Server"
+    }, {
+      "id" : "_vxAANeIsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_Password"
+    }, {
+      "id" : "_vxAANuIsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_Database"
+    }, {
+      "id" : "_vxAAN-IsEe-5eZu_3dS_AA",
+      "name" : "Artha_DB_Sql_Server_OilnGas_AdditionalParams"
+    } ]
+  } ]
+}
